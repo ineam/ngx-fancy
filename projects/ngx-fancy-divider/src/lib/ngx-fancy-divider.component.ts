@@ -1,20 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'lib-ngx-fancy-divider',
+  styles: [],
   template: `
     <p>
       ngx-fancy-divider works!
     </p>
-  `,
-  styles: [
-  ]
+  `
 })
-export class NgxFancyDividerComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class NgxFancyDividerComponent {
 }

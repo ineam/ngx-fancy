@@ -1,16 +1,15 @@
-import { NgModule } from '@angular/core';
-import { NgxFancyDividerComponent } from './ngx-fancy-divider.component';
-
+import {NgModule} from '@angular/core';
+import {NgxFancyDividerComponent} from './ngx-fancy-divider.component';
 
 
 @NgModule({
   declarations: [
     NgxFancyDividerComponent
   ],
-  imports: [
-  ],
+  imports: [],
   exports: [
     NgxFancyDividerComponent
   ]
 })
-export class NgxFancyDividerModule { }
+export class NgxFancyDividerModule {
+}

@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { NgxFancyDividerComponent } from './ngx-fancy-divider.component';
+import {NgxFancyDividerComponent} from './ngx-fancy-divider.component';
 
 describe('NgxFancyDividerComponent', () => {
   let component: NgxFancyDividerComponent;
@@ -8,9 +8,9 @@ describe('NgxFancyDividerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NgxFancyDividerComponent ]
+      declarations: [NgxFancyDividerComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

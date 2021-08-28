@@ -1,6 +1,6 @@
-import { TestBed } from '@angular/core/testing';
+import {TestBed} from '@angular/core/testing';
 
-import { NgxFancyDividerService } from './ngx-fancy-divider.service';
+import {NgxFancyDividerService} from './ngx-fancy-divider.service';
 
 describe('NgxFancyDividerService', () => {
   let service: NgxFancyDividerService;
