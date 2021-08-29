@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-fancy-divider": {
+    "ngx-fancier": {
       "projectType": "library",
-      "root": "projects/ngx-fancy-divider",
-      "sourceRoot": "projects/ngx-fancy-divider/src",
+      "root": "projects/ngx-fancier",
+      "sourceRoot": "projects/ngx-fancier/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ngx-fancy-divider/ng-package.json"
+            "project": "projects/ngx-fancier/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-fancy-divider/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-fancier/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ngx-fancy-divider/tsconfig.lib.json"
+              "tsConfig": "projects/ngx-fancier/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,9 +27,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngx-fancy-divider/src/test.ts",
-            "tsConfig": "projects/ngx-fancy-divider/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-fancy-divider/karma.conf.js"
+            "main": "projects/ngx-fancier/src/test.ts",
+            "tsConfig": "projects/ngx-fancier/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-fancier/karma.conf.js"
           }
         }
       }
@@ -138,5 +138,5 @@
       }
     }
   },
-  "defaultProject": "ngx-fancy-divider"
+  "defaultProject": "ngx-fancier"
 }

@@ -12,9 +12,9 @@
     "declaration": false,
     "downlevelIteration": true,
     "paths": {
-      "ngx-fancy-divider": [
-        "dist/ngx-fancy-divider/ngx-fancy-divider",
-        "dist/ngx-fancy-divider"
+      "ngx-fancier": [
+        "dist/ngx-fancier/ngx-fancier",
+        "dist/ngx-fancier"
       ]
     },
     "experimentalDecorators": true,
@@ -31,7 +31,6 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true,
-    "enableIvy":  false
+    "strictTemplates": true
   }
 }
