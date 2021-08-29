@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, '../../coverage/ngx-fancy-divider'),
+      dir: require('path').join(__dirname, '../../coverage/ngx-fancier'),
       subdir: '.',
       reporters: [
         { type: 'html' },

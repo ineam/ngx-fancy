@@ -1,5 +1,5 @@
 {
-  "name": "ngx-fancy-divider",
+  "name": "ngx-fancier",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^12.2.0",
