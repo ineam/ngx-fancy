@@ -11,7 +11,9 @@ on:
   workflow_dispatch:
     inputs:
       name:
-        description: yo yo
+        description: 'yo yo'
+        required: true
+        default: 'samedi soir'
 
 jobs:
   quality:
@@ -21,7 +23,7 @@ jobs:
     strategy:
       matrix:
         node-version: [14.x]
-        os: [windows-latest, ubuntu-latest]
+        os: [ubuntu-latest]
 
     steps:
     - uses: actions/checkout@v2
@@ -31,4 +33,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: |
-        echo "wesh alors ma race"
+        echo "wesh alors ma race ${{ github.event.inputs.name }}"
