@@ -4,10 +4,14 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: '*'
+  # push:
+    # branches: [ master ]
+  # pull_request:
+    # branches: '*'
+  workflow_dispatch:
+    inputs:
+      name:
+        description: yo yo
 
 jobs:
   quality:
@@ -26,4 +30,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
-    - run: npm test
+    - run: |
+        echo "wesh alors ma race"
