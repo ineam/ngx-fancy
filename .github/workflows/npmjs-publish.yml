@@ -1,29 +1,22 @@
 # This workflow will do a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: Node.js CI
+name: Publish to npmjs servers
 
 on:
-  # push:
-    # branches: [ master ]
-  # pull_request:
-    # branches: '*'
-  workflow_dispatch:
-    inputs:
-      name:
-        description: 'yo yo'
-        required: true
-        default: 'samedi soir'
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: '*'
 
 jobs:
   quality:
 
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
         node-version: [14.x]
-        os: [ubuntu-latest]
 
     steps:
     - uses: actions/checkout@v2
@@ -33,4 +26,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: |
-        echo "wesh alors ma race ${{ github.event.inputs.name }}"
+        echo "wesh alors ma race"
