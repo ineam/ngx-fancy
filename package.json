@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test-browser": "ng test",
-    "test": "ng test --browsers ChromeHeadless",
+    "test": "ng test --watch=false --code-coverage --browsers='ChromeHeadless'",
     "semantic-release": "semantic-release --branches master"
   },
   "private": true,
