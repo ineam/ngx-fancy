@@ -53,6 +53,7 @@ jobs:
         run: git push origin main --follow-tags
 
   create-github-release:
+    needs: bump-version
     runs-on: ubuntu-latest
     #    needs: publish
     steps:
