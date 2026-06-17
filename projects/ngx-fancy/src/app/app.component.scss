@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 75vw;
+
+  section {
+    min-height: 400px;
+  }
+
+  .first {
+    background-color: pink;
+  }
+
+  .second {
+    background-color: mediumpurple;
+  }
+}

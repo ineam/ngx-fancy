@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Needs `commitizen` to commit on this repo.
+install commitizen cli globally using npm  
+`npm i -g commitizen`  
+and now you can commit using `git cz` instead the usual `git commit`
