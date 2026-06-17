@@ -1,4 +1,14 @@
 :host {
-  transform: rotate(180deg);
-  height: 0;
+  display: block;
+  width: 100%;
+  line-height: 0;
+
+  svg {
+    display: block;
+    width: 100%;
+
+    &.flipped {
+      transform: scaleY(-1);
+    }
+  }
 }
