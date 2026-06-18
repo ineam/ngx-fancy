@@ -1,3 +1,4 @@
+# Documentation: .github/README.md
 name: 📌 Bump version
 
 on:
@@ -15,10 +16,11 @@ on:
 jobs:
   bump-version:
     runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.get_tag.outputs.tag }}
 
     steps:
       - name: Check out source
-        # See .github/README.md — "Why SSH deploy key and not GITHUB_TOKEN?"
         uses: actions/checkout@v4
         with:
           ssh-key: ${{ secrets.DEPLOY_KEY }}
@@ -40,18 +42,28 @@ jobs:
       - name: Bump version
         run: npm version ${{ github.event.inputs.version }}
 
+      - name: Get new version tag
+        id: get_tag
+        run: echo "tag=$(git describe --tags --abbrev=0)" >> $GITHUB_OUTPUT
+
       - name: Push latest version
         run: git push origin main --follow-tags
 
   create-github-release:
     needs: bump-version
     runs-on: ubuntu-latest
+    env:
+      NEW_TAG: ${{ needs.bump-version.outputs.tag }}
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.NEW_TAG }}
+
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ env.NEW_TAG }}
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
