@@ -8,6 +8,7 @@
     "watch:lib": "ng build ngx-fancier --watch --configuration development",
     "test": "ng test"
   },
+  "license": "EUPL-1.2",
   "private": true,
   "packageManager": "npm@11.16.0",
   "dependencies": {

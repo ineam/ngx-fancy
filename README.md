@@ -1,35 +1,52 @@
-# NgxFancy
+# ngx-fancy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+Angular workspace for the [**ngx-fancier**](projects/ngx-fancier) library — SVG wave section separators for Angular applications.
+
+---
+
+## Packages
+
+| Package | Version | Description |
+|---|---|---|
+| [`ngx-fancier`](projects/ngx-fancier/README.md) | 1.0.0 | Standalone Angular component for SVG wave separators |
+
+---
+
+## Workspace structure
+
+```
+ngx-fancy/
+├── projects/
+│   ├── ngx-fancier/   # Library (published to npm)
+│   └── ngx-fancy/     # Demo application
+└── dist/
+    └── ngx-fancier/   # Build output (generated)
+```
+
+---
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Build the library
+npm run build:lib
+
+# Watch mode (rebuild on change)
+npm run watch:lib
+
+# Run tests
+npm test
+
+# Serve the demo app (requires building the lib first)
+npm run build:lib && npm start
+```
+
+---
 
 ## CI/CD
 
 This workspace uses two GitHub Actions workflows for quality checks, versioning and publishing.
 See [`.github/README.md`](.github/README.md) for the full workflow documentation, required secrets and setup instructions.
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-# Needs `commitizen` to commit on this repo.
-install commitizen cli globally using npm  
-`npm i -g commitizen`  
-and now you can commit using `git cz` instead the usual `git commit`

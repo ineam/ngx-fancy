@@ -1,24 +1,78 @@
-# NgxFancier
+# ngx-fancier
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+> Angular SVG wave section separators — standalone component, signal inputs, zero dependencies.
 
-## Code scaffolding
+[![npm](https://img.shields.io/npm/v/ngx-fancier?color=blue)](https://www.npmjs.com/package/ngx-fancier)
+[![Angular](https://img.shields.io/badge/Angular-22-blueviolet)](https://angular.dev)
+[![license](https://img.shields.io/badge/license-EUPL--1.2-blue)](LICENSE)
 
-Run `ng generate component component-name --project ngx-fancier` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-fancier`.
-> Note: Don't forget to add `--project ngx-fancier` or else it will be added to the default project in your `angular.json` file. 
+---
 
-## Build
+## Installation
 
-Run `ng build ngx-fancier` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+npm install ngx-fancier
+```
 
-## Publishing
+---
 
-After building your library with `ng build ngx-fancier`, go to the dist folder `cd dist/ngx-fancier` and run `npm publish`.
+## Usage
 
-## Running unit tests
+Import the standalone component directly into your component:
 
-Run `ng test ngx-fancier` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```ts
+import { NgxFancierComponent } from 'ngx-fancier';
 
-## Further help
+@Component({
+  standalone: true,
+  imports: [NgxFancierComponent],
+  template: `
+    <section class="hero">...</section>
+    <ngx-fancier color="mediumpurple" />
+    <section class="content">...</section>
+  `
+})
+export class AppComponent {}
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## API
+
+| Input | Type | Default | Description |
+|---|---|---|---|
+| `color` | `string` | `'currentColor'` | Fill color of the wave. Accepts any valid CSS color value. |
+| `height` | `string` | `'120px'` | Height of the SVG wave. |
+| `flip` | `boolean` | `false` | Flips the wave vertically (useful for bottom separators). |
+
+---
+
+## Examples
+
+### Default wave
+```html
+<ngx-fancier />
+```
+
+### Custom color and height
+```html
+<ngx-fancier color="steelblue" height="200px" />
+```
+
+### Flipped (bottom separator)
+```html
+<ngx-fancier color="coral" [flip]="true" />
+```
+
+### Using CSS custom properties
+```html
+<ngx-fancier color="var(--primary-color)" />
+```
+
+---
+
+## Compatibility
+
+| ngx-fancier | Angular |
+|---|---|
+| 1.x | >= 22 |
