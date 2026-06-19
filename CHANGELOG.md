@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.1.1](https://github.com/ineam/ngx-fancy/compare/ngx-fancy-v1.1.0...ngx-fancy-v1.1.1) (2026-06-19)
+
+
+### Bug Fixes
+
+* **workflows:** :lock: switch release-please to fine-grained PAT token ([0ec5c73](https://github.com/ineam/ngx-fancy/commit/0ec5c73136134b37a9cd11ed5e38b5ddcc6dafd0))
+
 ## [1.1.0](https://github.com/ineam/ngx-fancy/compare/ngx-fancy-v1.0.0...ngx-fancy-v1.1.0) (2026-06-18)
 
 
