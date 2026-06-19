@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.1.2](https://github.com/ineam/ngx-fancy/compare/ngx-fancy-v1.1.1...ngx-fancy-v1.1.2) (2026-06-19)
+
+
+### Bug Fixes
+
+* **release:** :bug: fix extra-files json path for library version sync ([188aef5](https://github.com/ineam/ngx-fancy/commit/188aef5ee079bc226d997e4985770eca1f07843f))
+
 ## [1.1.1](https://github.com/ineam/ngx-fancy/compare/ngx-fancy-v1.1.0...ngx-fancy-v1.1.1) (2026-06-19)
 
 
