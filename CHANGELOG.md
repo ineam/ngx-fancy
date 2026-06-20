@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.1.3](https://github.com/ineam/ngx-fancy/compare/v1.1.2...v1.1.3) (2026-06-20)
+
+
+### Bug Fixes
+
+* **release:** :label: remove component prefix from release tags ([2171dab](https://github.com/ineam/ngx-fancy/commit/2171dab80cf1c417f07d9b4a1669209c3b734d74))
+
 ## [1.1.2](https://github.com/ineam/ngx-fancy/compare/ngx-fancy-v1.1.1...ngx-fancy-v1.1.2) (2026-06-19)
 
 
