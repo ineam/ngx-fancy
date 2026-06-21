@@ -14,5 +14,9 @@
     "tslib": "^2.3.0"
   },
   "license": "EUPL-1.2",
-  "sideEffects": false
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ineam/ngx-fancy.git"
+  }
 }
