@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.1.5](https://github.com/ineam/ngx-fancy/compare/v1.1.4...v1.1.5) (2026-06-21)
+
+
+### Bug Fixes
+
+* **publish:** :bug: add repository field to library package.json for provenance ([3dda743](https://github.com/ineam/ngx-fancy/commit/3dda743758cde05fcfb499e9fc0aecdeee4d1c1e))
+
 ## [1.1.4](https://github.com/ineam/ngx-fancy/compare/v1.1.3...v1.1.4) (2026-06-21)
 
 
