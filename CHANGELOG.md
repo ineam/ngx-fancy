@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.1.4](https://github.com/ineam/ngx-fancy/compare/v1.1.3...v1.1.4) (2026-06-21)
+
+
+### Bug Fixes
+
+* **publish:** :bug: use files allowlist to control npm tarball content ([234f9ec](https://github.com/ineam/ngx-fancy/commit/234f9ec0cfab2536a717fd9ff9c9f53e9cba2b91))
+
 ## [1.1.3](https://github.com/ineam/ngx-fancy/compare/v1.1.2...v1.1.3) (2026-06-20)
 
 
