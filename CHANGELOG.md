@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.1.6](https://github.com/ineam/ngx-fancy/compare/v1.1.5...v1.1.6) (2026-06-22)
+
+
+### Bug Fixes
+
+* **publish:** :wastebasket: remove temporary npm debug log artifact ([ad6c7d6](https://github.com/ineam/ngx-fancy/commit/ad6c7d6a9586d46c6af7ce918aa8bc47e4f132c2))
+
 ## [1.1.5](https://github.com/ineam/ngx-fancy/compare/v1.1.4...v1.1.5) (2026-06-21)
 
 
