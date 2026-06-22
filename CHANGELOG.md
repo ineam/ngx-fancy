@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.1.7](https://github.com/ineam/ngx-fancy/compare/v1.1.6...v1.1.7) (2026-06-22)
+
+
+### Bug Fixes
+
+* **publish:** :construction: test publish with classic npm token ([4b51f79](https://github.com/ineam/ngx-fancy/commit/4b51f793a978025c71df135eb4ef701bae37adf5))
+
 ## [1.1.6](https://github.com/ineam/ngx-fancy/compare/v1.1.5...v1.1.6) (2026-06-22)
 
 
