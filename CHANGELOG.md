@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.1.11](https://github.com/ineam/ngx-fancy/compare/v1.1.10...v1.1.11) (2026-06-22)
+
+
+### Bug Fixes
+
+* **publish:** :bug: normalize repository url for oidc validation ([ee8357a](https://github.com/ineam/ngx-fancy/commit/ee8357a0c391ed1bc987eed5a6c7463368c63336))
+
 ## [1.1.10](https://github.com/ineam/ngx-fancy/compare/v1.1.9...v1.1.10) (2026-06-22)
 
 
