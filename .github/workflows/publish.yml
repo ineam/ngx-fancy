@@ -9,7 +9,6 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     permissions:
-      id-token: write
       contents: read
 
     steps:
@@ -26,5 +25,7 @@ jobs:
 
       - run: npm ci
       - run: npm run build:lib
-      - run: npm publish --access public --provenance
+      - run: npm publish --access public
         working-directory: dist/ngx-fancier
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
