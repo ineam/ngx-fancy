@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.1.8](https://github.com/ineam/ngx-fancy/compare/v1.1.7...v1.1.8) (2026-06-22)
+
+
+### Bug Fixes
+
+* **publish:** :mag: log oidc token claims for trusted publishing ([28241a6](https://github.com/ineam/ngx-fancy/commit/28241a6b2ec74df6185e21652e26b6618f45ff8b))
+
 ## [1.1.7](https://github.com/ineam/ngx-fancy/compare/v1.1.6...v1.1.7) (2026-06-22)
 
 
