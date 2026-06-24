@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  flex-direction: column;
+
+  section {
+    min-height: 300px;
+    padding: 2rem 4rem;
+    color: white;
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    code {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+  }
+
+  .first  { background-color: pink; color: #333; code { background: rgba(0,0,0,0.1); } }
+  .second { background-color: mediumpurple; }
+  .third  { background-color: steelblue; }
+  .fourth { background-color: coral; }
+}

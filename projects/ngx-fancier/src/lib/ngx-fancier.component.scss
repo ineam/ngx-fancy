@@ -1,0 +1,14 @@
+:host {
+  display: block;
+  width: 100%;
+  line-height: 0;
+
+  svg {
+    display: block;
+    width: 100%;
+
+    &.flipped {
+      transform: scaleY(-1);
+    }
+  }
+}
