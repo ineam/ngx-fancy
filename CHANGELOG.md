@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.2.0](https://github.com/ineam/ngx-fancy/compare/v1.1.12...v1.2.0) (2026-06-24)
+
+
+### Features
+
+* **ngx-fancier:** :sparkles: add wave separator component with standalone API, signal inputs, and full release automation ([131bc79](https://github.com/ineam/ngx-fancy/commit/131bc79dd12fbd77229f2449dc226688483c161b))
+
 ## [1.1.12](https://github.com/ineam/ngx-fancy/compare/v1.1.11...v1.1.12) (2026-06-22)
 
 
