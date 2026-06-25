@@ -1,0 +1,22 @@
+{
+  "name": "ngx-fancier",
+  "version": "1.1.12",
+  "files": [
+    "fesm2022",
+    "types",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^22.0.0",
+    "@angular/core": "^22.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "license": "EUPL-1.2",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ineam/ngx-fancy.git"
+  }
+}
