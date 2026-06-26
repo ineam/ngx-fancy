@@ -1,0 +1,58 @@
+name: 💡 Feature request
+description: Propose a new feature or improvement
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest an idea ✨
+
+        Please search existing issues before submitting to avoid duplicates.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What would you like to add?
+      description: Describe the feature or improvement clearly.
+      placeholder: I would like...
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this useful?
+      description: Explain the problem, use case, or benefit.
+      placeholder: This would help because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: api
+    attributes:
+      label: Proposed API or usage example
+      description: Share a rough API idea or example if you have one.
+      placeholder: ```html
+      <ngx-fancier ... />
+      ```
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Optional — mention alternatives you explored.
+      placeholder: I also considered...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues for duplicates.
+          required: true
