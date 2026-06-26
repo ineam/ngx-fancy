@@ -50,3 +50,10 @@ npm run build:lib && npm start
 
 This workspace uses two GitHub Actions workflows for quality checks, versioning and publishing.
 See [`.github/README.md`](.github/README.md) for the full workflow documentation, required secrets and setup instructions.
+
+---
+
+## Contributing 🤝
+
+Contributions are welcome — bug fixes, new wave variants, and documentation improvements all help.
+Check out [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
