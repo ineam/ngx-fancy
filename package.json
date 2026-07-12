@@ -2,11 +2,14 @@
   "name": "ngx-fancy",
   "version": "1.2.0",
   "scripts": {
-    "ng": "ng",
-    "build": "ng build",
+    "start": "npm run build:lib && ng serve ngx-fancy",
+    "build": "npm run build:app",
     "build:lib": "ng build ngx-fancier",
+    "build:app": "npm run build:lib && ng build ngx-fancy",
     "watch:lib": "ng build ngx-fancier --watch --configuration development",
-    "test": "ng test"
+    "test": "npm run test:lib && npm run test:app",
+    "test:lib": "ng test ngx-fancier",
+    "test:app": "npm run build:lib && ng test ngx-fancy"
   },
   "license": "EUPL-1.2",
   "private": true,

@@ -26,7 +26,7 @@ import { NgxFancierComponent } from 'ngx-fancier';
       <p>Using <code>height="200px"</code> for a taller wave.</p>
     </section>
 
-    <ngx-fancier color="coral" height="200px" />
+    <ngx-fancier color="steelblue" height="200px" />
 
     <section class="fourth">
       <h1>End</h1>

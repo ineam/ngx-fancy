@@ -16,7 +16,7 @@ npm run watch:lib
 npm test
 ```
 
-To run the demo app, build the library first, then start the workspace app.
+To run the demo app, use `npm start`. For live library changes, keep `npm run watch:lib` running in another terminal.
 
 ## Commit format 📝
 

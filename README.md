@@ -40,8 +40,12 @@ npm run watch:lib
 # Run tests
 npm test
 
-# Serve the demo app (requires building the lib first)
-npm run build:lib && npm start
+# Serve the demo app
+# Serve the demo app
+npm start
+
+# Live-rebuild the lib while working on it
+npm run watch:lib
 ```
 
 ---

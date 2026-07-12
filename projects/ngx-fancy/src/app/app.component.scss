@@ -3,7 +3,6 @@
   flex-direction: column;
 
   section {
-    min-height: 300px;
     padding: 2rem 4rem;
     color: white;
 
@@ -19,7 +18,7 @@
     }
   }
 
-  .first  { background-color: pink; color: #333; code { background: rgba(0,0,0,0.1); } }
+  .first  { background-color: mediumpurple; }
   .second { background-color: mediumpurple; }
   .third  { background-color: steelblue; }
   .fourth { background-color: coral; }

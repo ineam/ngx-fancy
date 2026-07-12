@@ -1,12 +1,11 @@
-import {TestBed} from '@angular/core/testing';
-import {AppComponent} from './app.component';
+import { TestBed } from '@angular/core/testing';
+
+import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [
-        AppComponent
-      ],
+      imports: [AppComponent]
     }).compileComponents();
   });
 
@@ -20,6 +19,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.first h1')?.textContent).toContain('Small test title');
+    expect(compiled.querySelector('.first h1')?.textContent).toContain('Default wave');
   });
 });
