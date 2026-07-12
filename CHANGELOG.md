@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.3.0](https://github.com/ineam/ngx-fancy/compare/v1.2.0...v1.3.0) (2026-07-12)
+
+
+### Features
+
+* **demo:** :sparkles: wire up the showcase app and build it against the real lib ([b91a841](https://github.com/ineam/ngx-fancy/commit/b91a84173330f5a2e477f0329f4c202f242f52df))
+
 ## [1.2.0](https://github.com/ineam/ngx-fancy/compare/v1.1.12...v1.2.0) (2026-06-25)
 
 
