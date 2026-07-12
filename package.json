@@ -1,6 +1,6 @@
 {
   "name": "ngx-fancy",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "scripts": {
     "start": "npm run build:lib && ng serve ngx-fancy",
     "build": "npm run build:app",
