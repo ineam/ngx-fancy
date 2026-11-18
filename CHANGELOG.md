@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.3.1](https://github.com/ineam/ngx-fancy/compare/v1.3.0...v1.3.1) (2026-11-18)
+
+
+### Bug Fixes
+
+* **deps:** :arrow_up: bump angular to 22.2 to resolve security alerts ([#58](https://github.com/ineam/ngx-fancy/issues/58)) ([b529ce0](https://github.com/ineam/ngx-fancy/commit/b529ce0e8f1bfae117e1c96f970d86fa9e75e634))
+
 ## [1.3.0](https://github.com/ineam/ngx-fancy/compare/v1.2.0...v1.3.0) (2026-07-12)
 
 
